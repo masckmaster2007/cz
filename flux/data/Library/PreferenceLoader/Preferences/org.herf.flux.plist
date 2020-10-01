@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>org.herf.flux.png</string>
+		<key>label</key>
+		<string>f.lux</string>
+	</dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>NEW: You must run the f.lux app to set your location.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Choose lighting</string>
+		</dict>
+		<dict>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>org.herf.flux</string>
+			<key>default</key>
+			<integer>3400</integer>
+			<key>key</key>
+			<string>night</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>label</key>
+			<string>At night</string>
+			<key>PostNotification</key>
+			<string>org.herf.flux-settings</string>
+			<key>validTitles</key>
+			<array>
+				<string>Candle</string>
+				<string>Dim Incandescent</string>
+				<string>Incandescent</string>
+				<string>Halogen</string>
+				<string>Fluorescent</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>1900</integer>
+				<integer>2300</integer>
+				<integer>2700</integer>
+				<integer>3400</integer>
+				<integer>4200</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>org.herf.flux</string>
+			<key>default</key>
+			<integer>6500</integer>
+			<key>key</key>
+			<string>day</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>label</key>
+			<string>Daytime</string>
+			<key>PostNotification</key>
+			<string>org.herf.flux-day</string>
+			<key>validTitles</key>
+			<array>
+				<string>Halogen</string>
+				<string>Fluorescent</string>
+				<string>Midday Sun</string>
+				<string>Normal</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>3400</integer>
+				<integer>4200</integer>
+				<integer>5500</integer>
+				<integer>6500</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Disabled for older devices</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.herf.flux</string>
+			<key>key</key>
+			<string>slow</string>
+			<key>label</key>
+			<string>Long transition</string>
+			<key>PostNotification</key>
+			<string>org.herf.flux-enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Turn off for color-sensitive work</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.herf.flux</string>
+			<key>key</key>
+			<string>enable</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>org.herf.flux-enable</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>f.lux</string>
+</dict>
+</plist>

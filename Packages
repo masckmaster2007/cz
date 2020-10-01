@@ -1,0 +1,13 @@
+Package: org.herf.flux
+Version: 0.9986
+Architecture: iphoneos-arm
+Maintainer: Test Name <test@email.org>
+Filename: /flux.deb
+Size: 100816
+MD5sum: D97E7CE9F07DA93B1F6E866E777D9D9C
+SHA1: 9E537EB54BF11022F3E8DDE35965ED2F6CACA440
+SHA256: 8C932610C5F07D3CD805E50B27751469E33B4DCE9CD0ACA88DFA76B6AA483E3E
+Section: Tweaks
+Description: Warms colors at night to match indoor lighting.
+Author: Test Name <test@email.org>
+Name: F.lux
