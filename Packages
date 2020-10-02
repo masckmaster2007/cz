@@ -4,10 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: Test Name <test@email.org>
 Filename: /flux.deb
 Size: 100816
-MD5sum: d97e7ce9f07da93b1f6e866e777d9d9c
-SHA1: 9e537eb54bf11022f3e8dde35965ed2f6caca440
-SHA256: 8c932610c5f07d3cd805e50b27751469e33b4dce9cd0aca88dfa76b6aa483e3e
-Section: Tweaks
+MD5sum: D97E7CE9F07DA93B1F6E866E777D9D9C
+SHA1: 9E537EB54BF11022F3E8DDE35965ED2F6CACA440
+SHA256: 8C932610C5F07D3CD805E50B27751469E33B4DCE9CD0ACA88DFA76B6AA483E3E
 Description: Warms colors at night to match indoor lighting.
 Author: Test Name <test@email.org>
 Name: F.lux
